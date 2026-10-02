@@ -4,4 +4,21 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <Group
+      location = "group:KinetiqDeviceActivityMonitorExtension"
+      name = "KinetiqDeviceActivityMonitorExtension">
+      <FileRef
+         location = "group:DeviceActivityMonitorExtension.swift">
+      </FileRef>
+      <FileRef
+         location = "group:DeviceActivityMonitorExtension.entitlements">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Config"
+      name = "Config">
+      <FileRef
+         location = "group:KinetiqDeviceActivityMonitorExtension-Info.plist">
+      </FileRef>
+   </Group>
 </Workspace>
